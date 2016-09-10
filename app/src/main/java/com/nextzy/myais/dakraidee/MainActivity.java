@@ -16,27 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button buttonRandom;
     ImageView imageViewFood;
 
-//    ArrayList<String> foodList = new ArrayList<>();
-//    foodList.add("กะเพราหมูสับ");
-//    foodList.add("แกงเขียวหวาน");
-//    foodList.add("ข้าวผัด");
-//    foodList.add("ข้าวมันไก่");
-//    foodList.add("ข้าวไข่เจียวโปะไข่ดาว");
-//    List<String> foodList = Arrays.asList(
-//            "กะเพราหมูสับ",
-//            "แกงเขียวหวาน",
-//            "ข้าวผัด",
-//            "ข้าวมันไก่",
-//            "ข้าวไข่เจียวโปะไข่ดาว"
-//    );
-//
-//    List<Integer> imageList = Arrays.asList(
-//            R.drawable.image_001,
-//            R.drawable.image_002,
-//            R.drawable.image_003,
-//            R.drawable.image_004,
-//            R.drawable.image_005
-//    );
 
     List<Food> foodList = Arrays.asList(
             new Food("ข้าวกะเพราหมูสับ", R.drawable.image_001),
